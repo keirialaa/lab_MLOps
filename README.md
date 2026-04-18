@@ -21,8 +21,6 @@ A simple deployable Flask application with multiple routes and HTML templates.
    python app.py
    ```
 
-3. Open http://localhost:5000 in your browser.
-
 ## Deployment
 
 This app can be deployed to platforms like Heroku, Render, etc., that support Python apps.
