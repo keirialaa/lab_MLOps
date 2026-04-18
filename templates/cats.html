@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Cats{% endblock %}
+
+{% block content %}
+<h1>Cat Facts</h1>
+<ul>
+    {% for fact in facts %}
+    <li>{{ fact }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
